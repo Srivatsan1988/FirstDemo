@@ -1,6 +1,6 @@
 package com.java;
 
-
+//developed by TT reviewed by anand...20/09/20.20.20
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,7 +14,7 @@ public class testController {
 	@RequestMapping(value="/hello",method = RequestMethod.GET)
 	public ModelAndView showMessage(
 			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
-		System.out.println("in controller");
+		System.out.println("in controlle");
 		ModelAndView mv = new ModelAndView("helloworld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);
