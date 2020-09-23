@@ -7,10 +7,12 @@
 <title>Login Form Screen</title>
 </head>
 <body>  
-<form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
-Name: <input type="text" name="name"><br/>  
-Password: <input type="password" name="password"><br/>  
-<input type="submit" value="register">  
+<form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >
+<div style="margin-left: 500px;">
+Name: <input type="text" name="name"><br/><br/><br/>  
+Password: <input type="password" name="password"><br/><br/><br/>  
+<input type="submit" value="Register">
+</div>  
 </form>  
 </body>
 
